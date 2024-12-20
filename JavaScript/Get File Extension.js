@@ -4,3 +4,4 @@ function getFileExtension(filename) {
 
 console.log(getFileExtension('module.js'));
 console.log(getFileExtension('module.txt'));
+console.log(getFileExtension('module.txt')):
