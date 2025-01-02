@@ -21,8 +21,6 @@ const calculate = (btnValue) => {
   }
   display.value = output;
 };
-
-
 buttons.forEach((button) => {
   
   button.addEventListener("click", (e) => calculate(e.target.dataset.value));
